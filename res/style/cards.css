@@ -1,0 +1,97 @@
+.cards {
+}
+
+.card {
+	-webkit-transition:0.5s background linear;
+	position:relative;
+	padding:10px;
+}
+
+.card:hover{
+	background:#f0f0f0;
+}
+
+.sidebar {
+	float:left;
+}
+
+.card .sidebar .image {
+	width:120px;
+	height:120px;
+	border-radius:60px;
+}
+
+.card .sidebar .image img {
+	width:120px;
+	height:120px;
+	border-radius:60px;
+}
+
+
+.card .content {
+	margin-left:130px;
+}
+
+.card .header {
+	padding:10px;
+}
+
+.card .views {
+	margin-top:10px;
+}
+
+.card .views li {
+	display: inline;
+	margin-right:10px;
+	text-align : right;
+	color:black;
+}
+
+.card .content .name {
+	font-family: roboto;
+	font-size:24px;
+	font-weight: bold;
+}
+
+.card .content .title {
+	font-family: roboto;
+	font-size:22px;
+}
+.card .biografy {
+	padding:10px;
+	font-family: roboto;
+	font-size:18px;
+}
+
+a.btn-hire {
+	text-decoration: none;
+}
+
+.btn-hire {
+	background:#666;
+	color:#222;
+	font-size:18px;
+	padding:5px;
+	border-radius:3px;
+	-webkit-transition:0.3s background linear;
+}
+
+.btn-hire:hover {
+	background:#2ecc71;
+	color:white;
+
+}
+
+
+a.btn-hired {
+	text-decoration: none;
+}
+
+.btn-hired {
+	background:#2ecc71;
+	color:white;
+	font-size:18px;
+	padding:5px;
+	border-radius:3px;
+	-webkit-transition:0.3s background linear;
+}

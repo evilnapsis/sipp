@@ -1,0 +1,487 @@
+.r{
+	font-size:28px;
+	color:#555;
+	margin-left:100px;
+}
+.noborder {
+	border-top: 2px white solid;
+	border-right: 2px white solid;
+	border-left: 2px white solid;
+	border-bottom: 2px white solid;
+}
+
+.f20 {
+	font-size:20px;
+}
+.f28 {
+	font-size:28px;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+
+.ferror {
+	color:red;
+}
+
+.inpt {
+	-webkit-transition:0.5s background linear;
+}
+
+input.inpt {
+	-webkit-transition:0.5s background linear;
+}
+
+textarea.inpt {
+	-webkit-transition:0.5s background linear;
+}
+
+
+@font-face {
+	font-family: lovelo;
+	src:url("../font/lovelo-light.otf");
+
+}
+
+@font-face {
+	font-family: roboto;
+	src:url("../font/roboto-thin.ttf");
+
+}
+
+.lovelo {
+	font-family: lovelo;
+}
+
+.roboto {
+	font-family: roboto;
+}
+
+
+.f-black {
+	color:black;
+}
+
+input.search {
+	border: 1px white solid;
+	border-bottom : 1px black solid ;
+}
+
+
+ul.class-menu {
+	list-style: none;
+}
+
+ul.class-menu li {
+	display: inline;
+	font-size: 16px;
+	-webkit-transition : border-bottom 0.3s linear;
+	padding: 3px 20px;}
+
+ul.class-menu li:hover {
+	border-bottom: 2px #f1c40f solid;
+}
+
+ul.class-menu li.active {
+	border-bottom: 2px #f1c40f solid;
+}
+
+
+
+ul.class-menu li a:link,ul.class-menu li a:visited{
+	color: black;
+
+}
+ul.class-menu li a:hover {
+	text-decoration:none;
+}
+
+.oln {
+	outline: none;
+}
+
+.box {
+	padding:10px;
+}
+.river {
+	color:#3498db;
+}
+
+.river-bg {
+	background:#3498db;
+}
+
+.alizarin-bg{
+	background:#e74c3c;
+}
+
+.alizarin{
+	color:#e74c3c;
+}
+
+.sunflower-bg{
+	background:#f1c40f;
+}
+
+.sunflower{
+	color:#f1c40f;
+}
+
+.belize-hole-bg{
+	background:#2980b9;
+}
+
+.belize-hole{
+	color:#2980b9;
+}
+
+
+
+.greensea-bg{
+	background:#16a085;
+}
+
+.greensea{
+	color:#16a085;
+}
+
+
+
+.white {
+	color:white;
+}
+
+.white-bg {
+	background: white;
+}
+
+.profile {
+color:#3498db;
+}
+
+.profile.name {
+	font-size:38px;
+	padding:5px;
+}
+
+
+
+.profile.title {
+	font-size:28px;
+	padding:5px;
+}
+.profile.image {
+	padding:10px;
+	width:200px;
+	height:200px;
+	border-radius:100px;
+}
+
+.profile.image.mini {
+	width:100px;
+	height:100px;
+	border-radius:50px;
+}
+.profile.mini img {
+	width:100px;
+	height:100px;
+}
+
+
+
+.profile img {
+	width:200px;
+	height:200px;
+}
+
+.profile.bio {
+	font-size:30px;
+	padding:15px;
+	color:#7f8c8d;
+}
+
+.profile.bio p{
+	padding:5px;
+}
+
+.profile.skills {
+	font-size: 25px;
+}
+img.img-circle {
+	border-radius:100px;
+}
+.profile.views {
+}
+.profile.views .c {
+	font-size:20px;
+	color:black;
+}
+
+.profile.address {
+	font-size:20px;
+}
+.profile.phone {
+	font-size:20px;
+}
+.profile.mail {
+	font-size:20px;
+}
+
+.profile.site {
+	font-size:20px;
+}
+
+.markers {
+	margin: 0 auto;
+}
+
+.markers .marker {
+	float:left;
+	width:45%;
+	color:white;
+}
+.markers .marker.star {
+	margin-left:2px;
+}
+.markers .marker.like .icon {
+	background:#c0392b;
+	font-size:30px;
+	padding:10px;
+}
+
+.markers .marker.star .icon {
+	background:#f1c40f;
+	font-size:30px;
+	padding:10px;
+}
+.markers .marker .counter{
+	background:#ecf0f1;
+	color:#2c3e50;
+}
+
+.river {
+}
+
+.hr {
+	width:100%;
+	border: 2px #3498db dashed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+@import url(http://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css);
+
+form ul {
+	list-style: none;
+}
+
+form {
+  padding-right: 20px !important;
+}
+form input[type=text],
+form input[type=password],
+form input[type=submit] {
+  font-family: 'Roboto';
+}
+
+form input[type=text],
+form input[type=password],textarea {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  background: #fff;
+  border: none;
+  color: black;
+  outline: none;
+}
+
+form textarea {
+  width: 100%;
+  height: 140px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  background: #fff;
+  border: none;
+  color: black;
+  outline: none;
+}
+
+form label {
+	color:white;
+	font-family: roboto;
+}
+
+.dark-box {
+  background: #5e0400;
+  box-shadow: 1px 3px 3px #3d0100 inset;
+  height: 40px;
+  width: 50px;
+}
+.form-action .dark-box.bottom {
+  position: absolute;
+  right: 0;
+  bottom: -24px;
+}
+.tabs + .dark-box.top {
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+
+.button {
+    border: none;
+    display: block;
+    background: #136899;
+    height: 40px;
+    width: 80px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    /*box-shadow: 0px 3px 1px #2075aa;*/
+  	-webkit-transition: all 0.15s linear;
+	  -moz-transition: all 0.15s linear;
+	  transition: all 0.15s linear;
+}
+
+.button:hover {
+  background: #1e75aa;
+  /*box-shadow: 0 3px 1px #237bb2;*/
+}
+
+.button:active {
+  background: #136899;
+  /*box-shadow: 0 3px 1px #0f608c;*/
+}
+
+::-webkit-input-placeholder {
+  color: #e74c3c;
+  font-family: roboto;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #e74c3c;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #e74c3c;
+}
+:-ms-input-placeholder {
+  color: #e74c3c;
+}
+
+.fl-lft { float:left ;}
+.fl-rght { float:right;}
+
+.c-box {
+	width: 200px;
+	height:200px;
+	border-radius:100px;
+	margin-left:50px;
+	margin-top:50px;
+}
+
+.nephritis {
+	color: #27ae60;
+}
+
+.nephritis-bg {
+	background:#27ae60;
+}
+
+.emerald-bg {
+	background:#2ecc71;
+}
+.emerald {
+	color:#2ecc71;
+}
+
+.turquoise-bg {
+	background:#1abc9c;
+}
+
+.amethyst-bg{
+	background:#9b59b6;
+}
+
+.belize-hole-bg {
+	background:#2980b9;
+}
+
+.algn-cntr {
+	text-align:center;
+}
+.just {
+	text-align: justify;
+}
+.pd20 { padding:20px;}
+
+.pd10 { padding:10px;}
+
+.profile-image img {
+	width:240px;
+	height:240px;
+	border-radius:120px;
+}
+
+.mini-profile-image {
+	width:30px;
+	height:30px;
+	border-radius:15px;
+}
+
+.mini-profile-image img {
+	width:30px;
+	height:30px;
+	border-radius:15px;
+}
+
+ul.topmenu {
+	list-style: none;
+}
+
+ul.topmenu li {
+	display: inline;
+	margin-left:30px;
+}
+
+.colors {}
+
+.color {
+	padding:40px;
+	float: left;
+}
+
+.red { background: red; color:white; font-weight: bold; font-family: roboto; text-align:center; }
+.blue { background: blue; color:white; font-weight: bold; font-family: roboto; text-align:center; }
+.green { background: green; color:white; font-weight: bold; font-family: roboto; text-align:center; }
+.yellow { background: yellow; color:white; font-weight: bold; font-family: roboto; text-align:center; }
+.violet { background: violet; color:white; font-weight: bold; font-family: roboto; text-align:center; }
+.maroon { background: maroon; color:white; font-weight: bold; font-family: roboto; text-align:center; }
+.gray { background: gray; color:white; font-weight: bold; font-family: roboto; text-align:center; }
+.black { background: black; color:white; font-weight: bold; font-family: roboto; text-align:center; }
